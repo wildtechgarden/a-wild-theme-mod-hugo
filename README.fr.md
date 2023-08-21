@@ -1,6 +1,6 @@
 # Un thème sauvage á Hugo par Wild Tech 'Garden'
 
-TBD
+Le thème de choix future de Wild Tech 'Garden'
 
 ## Statut IC
 

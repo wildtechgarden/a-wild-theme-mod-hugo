@@ -1,6 +1,6 @@
 # A Wild Theme for Hugo by Wild Tech 'Garden'
 
-TBD
+Wild Tech 'Garden's future theme of choice.
 
 ## CI Status
 
