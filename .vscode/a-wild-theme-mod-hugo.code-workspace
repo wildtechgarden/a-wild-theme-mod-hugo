@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../wild-demo-test-site-hugo-wtg"
+		},
+		{
+			"path": "../../minimal-test-theme-hugo-wtg"
 		}
 	],
 	"settings": {}
