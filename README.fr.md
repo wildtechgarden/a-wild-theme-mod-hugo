@@ -4,7 +4,8 @@ TBD
 
 ## Statut IC
 
-TBD
+[![pre-commit.ci
+statut](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
 
 ## Site
 
