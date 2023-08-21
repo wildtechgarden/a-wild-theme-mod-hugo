@@ -1,6 +1,6 @@
-baseURL = "https://www.module-starter.wtg-demos.ca/"
+baseURL = "https://www.a-wild-theme.wtg-demos.ca/"
 copyright = "© 2023 Wild Tech 'Garden'"
-homepage = "https://www.module-starter.wtg-demos.ca/"
+homepage = "https://www.a-wild-theme.wtg-demos.ca/"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableGitInfo = true
@@ -13,12 +13,12 @@ timeout = "600s"
 
 [languages]
 [languages.fr]
-title = "Hugo site aux manifs aux module de démarrage"
+title = "Site manif au thème sauvage au Hugo au Wild Tech 'Garden'"
 weight = 10
 contentDir = "content/fr"
 
 [languages.fr.params]
-description = "Site manif aux modules de démarrage aux Wild Tech 'Garden' (WTG)"
+description = "Site manif au thème sauvage au Hugo au Wild Tech 'Garden' (WTG)"
 
 [languages.fr.menu]
 [[languages.fr.menu.main]]
@@ -34,12 +34,12 @@ pageref = "accessibility"
 weight = 30
 
 [languages.en]
-title = "Hugo demo site for Wild Tech 'Garden' (WTG) modules"
+title = "Demo site for a Wild theme for Wild Tech 'Garden'"
 weight = 1
 contentDir = "content/en"
 
 [languages.en.params]
-description = "Demo site for Wild Tech 'Garden's modules"
+description = "Demo site for a wild theme for Wild Tech 'Garden"
 
 [languages.en.menu]
 [[languages.en.menu.main]]
@@ -108,9 +108,9 @@ term = ["HTML", "RSS"]
 [params]
 mainSections = ["demo","doc"]
 redirectsDomains = [
-	"module-starter.wtg-demos.ca",
-	"module-starter.wtg-demos.com",
-	"www.module-starter.wtg-demos.com",
+	"a-wild-theme.wtg-demos.ca",
+	"a-wild-theme.wtg-demos.com",
+	"www.a-wild-theme.wtg-demos.com",
 	"wtgdeml.cluster051.hosting.ovh.net"
 ]
 redirectsExtra = []
@@ -183,7 +183,7 @@ target = "content"
 lang = "fr"
 
 [[module.imports]]
-path = "github.com/wildtechgarden/minimal-test-theme-hugo-wtg"
+path = "github.com/wildtechgarden/a-wild-theme-mod-hugo"
 
 [[module.imports.mounts]]
 source = "static"
@@ -209,32 +209,32 @@ target = "i18n"
 source = "archetypes"
 target = "archetypes"
 
-[[module.imports.mounts]]
-source = "README.md"
-target = "content/doc/minimal-theme/README.md"
-lang = "en"
+# [[module.imports.mounts]]
+# source = "README.md"
+# target = "content/doc/minimal-theme/README.md"
+# lang = "en"
 
-[[module.imports.mounts]]
-source = "README.fr.md"
-target = "content/doc/minimal-theme/README.md"
-lang = "fr"
+# [[module.imports.mounts]]
+# source = "README.fr.md"
+# target = "content/doc/minimal-theme/README.md"
+# lang = "fr"
 
-[[module.imports.mounts]]
-source = "docs"
-target = "content/doc/minimal-theme/docs"
-lang = "en"
+# [[module.imports.mounts]]
+# source = "docs"
+# target = "content/doc/minimal-theme/docs"
+# lang = "en"
 
-[[module.imports.mounts]]
-source = "docs"
-target = "content/doc/minimal-theme/docs"
-lang = "fr"
+# [[module.imports.mounts]]
+# source = "docs"
+# target = "content/doc/minimal-theme/docs"
+# lang = "fr"
 
-[[module.imports.mounts]]
-source = "LICENSE"
-target = "content/doc/minimal-theme/LICENSE"
-lang = "en"
+# [[module.imports.mounts]]
+# source = "LICENSE"
+# target = "content/doc/minimal-theme/LICENSE"
+# lang = "en"
 
-[[module.imports.mounts]]
-source = "LICENSE"
-target = "content/doc/minimal-theme/LICENSE"
-lang = "fr"
+# [[module.imports.mounts]]
+# source = "LICENSE"
+# target = "content/doc/minimal-theme/LICENSE"
+# lang = "fr"

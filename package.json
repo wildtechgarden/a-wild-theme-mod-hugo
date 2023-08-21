@@ -1,7 +1,7 @@
 {
-  "name": "new-mod-hugo-wtg",
+  "name": "a-wile-theme-mod-hugo",
   "version": "0.1.0",
-  "description": "New Hugo module by Wild Tech 'Garden'",
+  "description": "A wild theme for Hugo by Wild Tech 'Garden'",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -11,19 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wildtechgarden/new-mod-hugo-wtg.git"
+    "url": "git+https://github.com/wildtechgarden/a-wild-theme-mod-hugo.git"
   },
   "keywords": [
     "computing",
     "technology",
-    "hugo-module"
+    "hugo-module",
+	 "website-theme"
   ],
   "author": "Daniel F. Dickinson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wildtechgarden/new-mod-hugo-wtg/issues"
+    "url": "https://github.com/wildtechgarden/a-wild-theme-mod-hugo/issues"
   },
-  "homepage": "https://www.wtg-demos.ca/",
+  "homepage": "https://www.a-wild-theme.wtg-demos.ca/",
   "devDependencies": {
     "@cspell/dict-fr-fr": "^2.2.2",
     "@cspell/dict-fr-reforme": "^2.2.2",
