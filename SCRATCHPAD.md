@@ -68,9 +68,9 @@ If the page has a `<div class="body-wrapper">` element (the default), then
 setting the `bodyWrapperClass` param will use string provided as the
 class(es) for that wrapper `<div>`.
 
-### Hide page header
+### Omit page header
 
-The page can be hidden via param (user) by setting `hidePageHeader`
+The page can be hidden via param (user) by setting `omitPageHeader`
 to `true`. Alternatively a layout can override the `body-header` block.
 
 ### Body header class
