@@ -9,6 +9,7 @@ SITECONFIG
 SITEROOT
 SITESRC
 TDEWOLFF
+Werror
 Zgotmpl
 curdir
 dontbreakthebackbutton
