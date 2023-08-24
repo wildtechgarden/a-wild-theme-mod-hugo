@@ -31,6 +31,7 @@
 {{ partial "output-wtg-awt/head-contents.html" . -}}
 {{- else }}
 {{ hugo.Generator -}}
+<title>{{ .Title }}</title>
 {{- end }}
 </head>
 {{- end }}
