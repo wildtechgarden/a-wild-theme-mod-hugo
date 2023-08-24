@@ -20,5 +20,4 @@ TBD
 ## Colophon
 
 Copyright © 2023 Wild Tech 'Garden'  
-[Publié soul license Creative Commons Attribution-ShareAlike 4.0
-International](LICENSE)
+[Publié sous license MIT](LICENSE)
