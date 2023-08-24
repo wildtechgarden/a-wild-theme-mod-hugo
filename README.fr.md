@@ -1,6 +1,8 @@
 # Un thème sauvage á Hugo par Wild Tech 'Garden'
 
-Le thème de choix future de Wild Tech 'Garden'
+Le thème de choix future de Wild Tech 'Garden'. Envelopper à [Coque thématique
+'Sauvage' au Hugo de Wild Tech
+'Garden'](https://github.com/wildtechgarden/wild-theme-shell-mod-hugo/blob/main/README.fr.md)
 
 ## Statut IC
 

@@ -1,6 +1,8 @@
 # A Wild Theme for Hugo by Wild Tech 'Garden'
 
-Wild Tech 'Garden's future theme of choice.
+Wild Tech 'Garden's future theme of choice (main code). Wrapped in ['Wild'
+Theme Shell for Hugo by Wild Tech
+'Garden'](https://github.com/wildtechgarden/wild-theme-shell-mod-hugo)
 
 ## CI Status
 

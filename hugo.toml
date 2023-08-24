@@ -1,7 +1,8 @@
 name = "A wild theme for Hugo by Wild Tech 'Garden'"
 copyright = "© 2023 Wild Tech 'Garden'"
 description = """\
-A theme for use by Wild Tech 'Garden' and others -- very pre-alpha\
+A theme for use by Wild Tech 'Garden' and others. Wrapped in \"'Wild' Theme \
+Shell for Hugo by Wild Tech 'Garden'\" -- very pre-alpha\
 """
 
 [module]
