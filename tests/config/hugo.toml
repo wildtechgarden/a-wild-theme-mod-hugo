@@ -74,6 +74,7 @@ pageRef = "/demo"
 weight = 50
 
 [params]
+issueReportUrl = "https://github.com/wildtechgarden/a-wild-theme-mod-hugo/issues/new"
 mainSections = ["demo","doc"]
 redirectsDomains = [
 	"a-wild-theme.wtg-demos.ca",
