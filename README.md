@@ -1,21 +1,30 @@
 # A Wild Theme for Hugo by Wild Tech 'Garden'
 
-Wild Tech 'Garden's future theme of choice (main code). Wrapped in ['Wild'
-Theme Shell for Hugo by Wild Tech
-'Garden'](https://github.com/wildtechgarden/wild-theme-shell-mod-hugo)
+Description: Wild Tech 'Garden's future theme of choice (main code). Wrapped by
+['Wild' Theme Shell for Hugo by Wild Tech 'Garden'](https://github.com/wildtechgarden/wild-theme-shell-mod-hugo)\
+Site: <https://www.wtg-demos.ca/doc/a-wild-theme/readme/>  
+Repository: <https://github.com/wildtechgarden/a-wild-theme-mod-hugo>  
+CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
 
-## CI Status
+## Contents
 
-[![pre-commit.ci
-status](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
+1. [Contents](#contents)
+2. [Features](#features)
+3. [Usage](#usage)
+4. [Development](#development)
+5. [Colophon](#colophon)
 
-## Site
+## Features
 
 TBD
 
-## Repository URL
+## Usage
 
-<https://github.com/wildtechgarden/a-wild-theme-mod-hugo>
+TBD
+
+## Development
+
+TBD
 
 -------
 
