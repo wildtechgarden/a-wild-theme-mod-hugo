@@ -14,8 +14,6 @@ Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/w
 4. [Développement](#développement)
 5. [Colophon](#colophon)
 
--------
-
 ## Fonctionnalités
 
 TBD
@@ -27,6 +25,8 @@ TBD
 ## Développement
 
 TBD
+
+-------
 
 ## Colophon
 
