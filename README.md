@@ -2,7 +2,7 @@
 
 Description: Wild Tech 'Garden's future theme of choice (main code). Wrapped by
 ['Wild' Theme Shell for Hugo by Wild Tech 'Garden'](https://github.com/wildtechgarden/wild-theme-shell-mod-hugo)\
-Site: <https://www.wtg-demos.ca/doc/a-wild-theme/readme/>  
+Site: <https://www.a-wild-theme.wtg-demos.ca/>  
 Repository: <https://github.com/wildtechgarden/a-wild-theme-mod-hugo>  
 CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
 
