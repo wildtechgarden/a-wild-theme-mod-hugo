@@ -1,5 +1,5 @@
 #!/bin/bash
-# cspell:ignore wtgawild
+# cspell:ignore awild
 
 set -e
 set -o pipefail
@@ -7,6 +7,13 @@ set -o pipefail
 rm -rf public
 
 export BASEURL="https://www.a-wild-theme.wtg-demos.ca/"
+export HUGO_RESOURCEDIR="$(pwd)"/resources
+# export HUGO_MODULE_REPLACEMENTS="github.com/wildtechgarden/a-wild-theme-mod-hugo -> $(pwd)"
+export SITEROOT="$(pwd)"
+export SITECONFIG="$(pwd)"/tests/config/hugo.toml
+export TARGET="$(pwd)"/public
+export CURDIR="$(pwd)"
 
-HUGO_RESOURCEDIR="$(pwd)"/resources hugo --gc --minify -b $BASEURL --source "$(pwd)" --destination "$(pwd)"/public --config "$(pwd)"/tests/config/hugo.toml
-rclone sync --progress public/ wtgawild:./
+cd "$(pwd)"/tests/config && hugo --gc --minify -b $BASEURL --source "${SITEROOT}" --destination "${TARGET}" --config "${SITECONFIG}"
+cd "$CURDIR"
+rclone sync --progress public/ wtg-awild:./
