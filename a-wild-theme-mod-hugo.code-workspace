@@ -12,6 +12,10 @@
 		},
 		{
 			"path": "../minimal-test-theme-hugo-wtg"
+		},
+		{
+			"name": "module-starter-hugo-wtg",
+			"path": "../module-starter-hugo-wtg"
 		}
 	],
 	"settings": {
