@@ -1,4 +1,6 @@
-github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.4 h1:MQNvl/BfT5hPfM0sELuaNQiET1h2bjOrJ9tGpddmz+U=
-github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.4/go.mod h1:ZrnzcWKdEfG2UEXbI9dGPmRVT+Cqi7QbX4aKx3HSn1I=
-github.com/wildtechgarden/demo-test-site-hugo-wtg v0.2.0 h1:38LLt3vMB0Ocnn4MozFvHMckhP6xkBd6QNn3QqjutmY=
-github.com/wildtechgarden/demo-test-site-hugo-wtg v0.2.0/go.mod h1:HaTWesa9XWywKhpuj2NCvq2m3lI7X+s7AafhC9RuMPo=
+github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.6 h1:37tx4D/9rMsBEEgz34HcbxhgSDRhdT8OD7fTOx/u9jc=
+github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.6/go.mod h1:0UeoEESqCVKFwmXH2+qUUxKlZVXTJpHmeuuWQ/n9CMY=
+github.com/wildtechgarden/demo-test-site-hugo-wtg v0.2.1 h1:YQBFTHngVOM3HJBvijjGBIzKQTXlKTTCZeSCNtLT8TE=
+github.com/wildtechgarden/demo-test-site-hugo-wtg v0.2.1/go.mod h1:CrmJcRwUDijoyY0XNlA6Rx3zmZkjq+utnIqsAkSoCUY=
+github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.7 h1:0PthI/f3ZkCAO/yqxHmfnV7cXoWVZ5EisdaBqolGVig=
+github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.7/go.mod h1:jL4+RbgWk3hJ4/ACHtsbgHqfFdPYkng4LPoVnO/m3g8=
