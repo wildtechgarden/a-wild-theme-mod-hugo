@@ -1,5 +1,5 @@
 module github.com/wildtechgarden/a-wild-theme-mod-hugo
 
-go 1.21.0
+go 1.21
 
-require github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.7 // indirect
+require github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.8 // indirect
