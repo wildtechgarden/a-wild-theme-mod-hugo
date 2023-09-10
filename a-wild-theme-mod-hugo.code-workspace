@@ -11,11 +11,11 @@
 			"path": "../wild-demo-test-site-hugo-wtg"
 		},
 		{
-			"path": "../minimal-test-theme-hugo-wtg"
-		},
-		{
 			"name": "module-starter-hugo-wtg",
 			"path": "../module-starter-hugo-wtg"
+		},
+		{
+			"path": "../audit-build-action-hugo"
 		}
 	],
 	"settings": {
