@@ -25,8 +25,7 @@
 		"markdown.extension.toc.levels": "2..4",
 		"markdown.extension.toc.orderedList": true,
 		"markdown.extension.toc.unorderedList.marker": "*",
-		"stylelint.configFile": ".stylelintrc.json",
-		"markdown.extension.list.indentationSize": "inherit"
+		"stylelint.configFile": ".stylelintrc.json"
 	},
 	"extensions": {
 		"recommendations": [
