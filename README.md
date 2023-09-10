@@ -5,6 +5,7 @@ Description: Wild Tech 'Garden's future theme of choice (main code). Wrapped by
 Site: <https://www.a-wild-theme.wtg-demos.ca/>  
 Repository: <https://github.com/wildtechgarden/a-wild-theme-mod-hugo>  
 CI Status: [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
+[![build-audit](https://github.com/wildtechgarden/a-wild-theme-mod-hugo/actions/workflows/build-audit.yml/badge.svg)](https://github.com/wildtechgarden/a-wild-theme-mod-hugo/actions/workflows/build-audit.yml)
 
 ## Contents
 

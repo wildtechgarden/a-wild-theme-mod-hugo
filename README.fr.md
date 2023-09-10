@@ -5,6 +5,7 @@ Décrit: Le thème de choix future de Wild Tech 'Garden'. Envelopper à
 Site: <https://www.a-wild-theme.wtg-demos.ca/fr/>
 URL du référentiel: <https://github.com/wildtechgarden/a-wild-theme-mod-hugo>
 Statut IC: [![pre-commit.ci statut](https://results.pre-commit.ci/badge/github/wildtechgarden/a-wild-theme-mod-hugo/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/a-wild-theme-mod-hugo/main)
+[![build-audit](https://github.com/wildtechgarden/a-wild-theme-mod-hugo/actions/workflows/build-audit.yml/badge.svg)](https://github.com/wildtechgarden/a-wild-theme-mod-hugo/actions/workflows/build-audit.yml)
 
 ## Matières
 
