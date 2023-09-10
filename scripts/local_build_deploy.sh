@@ -16,4 +16,4 @@ export CURDIR="$(pwd)"
 
 cd "$(pwd)"/tests/config && hugo --gc --minify -b $BASEURL --source "${SITEROOT}" --destination "${TARGET}" --config "${SITECONFIG}"
 cd "$CURDIR"
-rclone sync --progress public/ wtg-awild:./
+rclone sync --progress --checksum public/ wtg-awild:./
