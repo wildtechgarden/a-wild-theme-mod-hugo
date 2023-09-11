@@ -16,6 +16,10 @@
 		},
 		{
 			"path": "../audit-build-action-hugo"
+		},
+		{
+			"name": "validator-html-action",
+			"path": "../validator-html-action"
 		}
 	],
 	"settings": {
