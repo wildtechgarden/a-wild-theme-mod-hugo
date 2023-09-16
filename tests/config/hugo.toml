@@ -110,6 +110,20 @@ omitFromFeeds = true
 kind = "term"
 
 [[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/_index.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/_index.md"
+lang = "fr"
+
+[[cascade]]
 pageCanonical = true
 [cascade._target]
 path = "/{about,demo,doc}/_index.md"
