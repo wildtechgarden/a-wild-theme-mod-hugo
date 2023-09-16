@@ -8,9 +8,6 @@
 			"path": "../wild-theme-shell-mod-hugo"
 		},
 		{
-			"path": "../wild-demo-test-site-hugo-wtg"
-		},
-		{
 			"name": "module-starter-hugo-wtg",
 			"path": "../module-starter-hugo-wtg"
 		},
@@ -20,6 +17,10 @@
 		{
 			"name": "validator-html-action",
 			"path": "../validator-html-action"
+		},
+		{
+			"name": "demo-test-site-hugo-wtg",
+			"path": "../demo-test-site-hugo-wtg"
 		}
 	],
 	"settings": {
