@@ -113,27 +113,41 @@ kind = "term"
 pageCanonical = true
 [cascade._target]
 path = "/{about,demo,doc}/_index.md"
-lang="en"
+lang = "en"
 
 [[cascade]]
 pageCanonical = true
 [cascade._target]
 path = "/{about,demo,doc}/_index.md"
-lang="fr"
+lang = "fr"
 
 [[cascade]]
 pageCanonical = false
 toRelCanonical = "https://www.wtg-demos.ca"
 [cascade._target]
-path = "/{about,demo,doc}/**"
-lang="en"
+path = "/{about,demo,doc}/[!_]*.md"
+lang = "en"
 
 [[cascade]]
 pageCanonical = false
 toRelCanonical = "https://www.wtg-demos.ca"
 [cascade._target]
-path = "/{about,demo,doc}/**"
-lang="fr"
+path = "/{about,demo,doc}/[!_]*.md"
+lang = "fr"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/**/*.md"
+lang = "en"
+
+[[cascade]]
+pageCanonical = false
+toRelCanonical = "https://www.wtg-demos.ca"
+[cascade._target]
+path = "/{about,demo,doc}/**/*.md"
+lang = "fr"
 
 [taxonomies]
 tag = "tags"
