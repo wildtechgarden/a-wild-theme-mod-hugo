@@ -12,13 +12,6 @@
 			"path": "../module-starter-hugo-wtg"
 		},
 		{
-			"path": "../audit-build-action-hugo"
-		},
-		{
-			"name": "validator-html-action",
-			"path": "../validator-html-action"
-		},
-		{
 			"name": "demo-test-site-hugo-wtg",
 			"path": "../demo-test-site-hugo-wtg"
 		}
@@ -30,7 +23,8 @@
 		"markdown.extension.toc.levels": "2..4",
 		"markdown.extension.toc.orderedList": true,
 		"markdown.extension.toc.unorderedList.marker": "*",
-		"stylelint.configFile": ".stylelintrc.json"
+		"stylelint.configFile": ".stylelintrc.json",
+		"markdown.extension.list.indentationSize": "inherit"
 	},
 	"extensions": {
 		"recommendations": [
