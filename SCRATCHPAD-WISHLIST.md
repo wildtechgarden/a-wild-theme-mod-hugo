@@ -20,7 +20,6 @@ Wish to avoid NPM/js.Build if possible.
 
 * Language selector
 * hreflang support
-* Enable / disable language(s) with 'switch' (i.e. only configuration edits)
 
 ## Technical SEO
 
@@ -29,7 +28,6 @@ Wish to avoid NPM/js.Build if possible.
 * JSON-LD 'Schema' and 'Breadcrumbs'
 * perfect (or close) PageSpeed scores
 * Valid HTML5 / CSS3 (updated as browsers gain support for features)
-* perfect (or close) PageSpeed scores
 
 ## Accessibility / Ease of use
 
