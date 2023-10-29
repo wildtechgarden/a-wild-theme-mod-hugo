@@ -277,16 +277,20 @@ source = "static"
 target = "static"
 
 [[module.imports.mounts]]
-source = "layouts"
-target = "layouts"
+source = "layouts/_default"
+target = "layouts/_default"
+
+[[module.imports.mounts]]
+source = "layouts/partials/wtg-theme"
+target = "layouts/partials/wtg-theme"
 
 [[module.imports.mounts]]
 source = "data"
 target = "data"
 
 [[module.imports.mounts]]
-source = "assets"
-target = "assets"
+source = "assets/wtg-theme"
+target = "assets/wtg-theme"
 
 [[module.imports.mounts]]
 source = "i18n"
