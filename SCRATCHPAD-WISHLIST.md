@@ -90,7 +90,7 @@ design.
 ### Fonts
 
 * Probably need to break down and use some kind of web font for good, and
-consistent look.
+consistent, look.
 * Use locally hosted fonts though (no external CDN)
 
 ## Local search
@@ -104,7 +104,7 @@ consistent look.
 
 ## Favicons / Logo
 
-* Based on package from RealFaviconGenerator
+* Based on package from [RealFaviconGenerator](https://realfavicongenerator.net/)
 * Logo optional
 * Part of top navbar if present
 
