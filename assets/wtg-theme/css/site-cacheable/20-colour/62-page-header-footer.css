@@ -1,0 +1,3 @@
+header:first-of-type nav details {
+	color: var(--header-nav-link-color);
+}

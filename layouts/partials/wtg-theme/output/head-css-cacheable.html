@@ -1,0 +1,33 @@
+{{- $combinedCSS := (slice) -}}
+{{- $essentialCSSFallback := resources.Match "/wtg-shell/css/site-cacheable/**/*.css" -}}
+{{- $essentialCSS := resources.Match "/wtg-theme/css/site-cacheable/**/*.css" -}}
+{{- $customCSS := resources.Match "/css/wtg-custom/site-cacheable/*.css" -}}
+{{- if $essentialCSSFallback -}}
+	{{- range $essentialCSSFallback -}}
+		{{- $combinedCSS = $combinedCSS | append . -}}
+	{{- end -}}
+{{- end -}}
+{{- if $essentialCSS -}}
+	{{- range $essentialCSS -}}
+		{{- $combinedCSS = $combinedCSS | append . -}}
+	{{- end -}}
+{{- end -}}
+{{- if not (or $essentialCSS $essentialCSSFallback) -}}
+	{{- errorf "'/wtg-theme/css/site-cacheable/**/*.css' is missing" -}}
+{{- end -}}
+{{- if $customCSS -}}
+	{{- range $customCSS -}}
+		{{- $combinedCSS = $combinedCSS | append . -}}
+	{{- end -}}
+{{- end -}}
+{{- if gt (len $combinedCSS) 0 -}}
+	{{- $resultCSS := $combinedCSS | resources.Concat "/assets/css/wtg-shell-site-cacheable.css" -}}
+	{{- if ne hugo.Environment "development" -}}
+		{{- $resultCSS = $resultCSS | resources.Minify -}}
+		{{- $resultCSS = $resultCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $resultCSS.Permalink }}" integrity="{{ $resultCSS.Data.Integrity }}" crossorigin="anonymous">
+	{{- else }}
+<link rel="stylesheet" href="{{ $resultCSS.Permalink }}">
+	{{- end -}}
+{{- end -}}
+{{- /* Remove trailing newlines */ -}}
