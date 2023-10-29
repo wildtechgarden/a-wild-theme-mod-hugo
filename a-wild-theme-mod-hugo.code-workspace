@@ -1,4 +1,4 @@
-	// cspell:ignore reforme, yzhang, ecmel, davidanson, budparr, mrmlnc, stylelintrc
+	// cspell:ignore reforme, yzhang, ecmel, davidanson, budparr, mrmlnc, stylelintrc, invis
 	{
 	"folders": [
 		{
@@ -39,7 +39,8 @@
 			"stylelint.vscode-stylelint",
 			"redhat.vscode-yaml",
 			"budparr.language-hugo-vscode",
-			"mrmlnc.vscode-apache"
+			"mrmlnc.vscode-apache",
+			"be5invis.toml"
 		]
 	}
 }
