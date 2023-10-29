@@ -1,2 +1,8 @@
 [poweredByTheme]
 other = "Alimenté par <a href=\"https://github.com/wildtechgarden/a-wild-theme-mod-hugo\">«Un thème sauvage»</a> pour <a href=\"https://gohugo.io\">Hugo</a>"
+
+[recentContentInSectionOnSite]
+other = "Contenu récent au section «{{ .pageTitle }}» de {{ .siteTitle }}"
+
+[sectionOnSite]
+other = "{{ .pageTitle }} de {{ .siteTitle }}"
