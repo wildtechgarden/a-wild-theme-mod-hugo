@@ -3,6 +3,7 @@ csslint
 curdir
 DEPLOYDBASEURL
 dontbreakthebackbutton
+EDCNS
 Emph
 ENABLEMISSINGTRANSLATIONPLACEHOLDERS
 errorf
@@ -20,12 +21,15 @@ lastmod
 lnlinks
 lntable
 lntd
+LQIP
 muffet
+pagefind
 pageref
 Preproc
 rclone
 RESOURCEDIR
 RewriteCond
+Shortcodes
 SITECONFIG
 SITEROOT
 SITESRC
