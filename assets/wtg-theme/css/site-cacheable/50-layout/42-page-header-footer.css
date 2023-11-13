@@ -1,30 +1,30 @@
 /* Page header and footer layout */
 
 header:first-of-type nav details summary {
+	margin-top: 0;
+	margin-bottom: 0;
 	border: solid 2px;
 	border-radius: 8px;
-	list-style-type: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-left: .4em;
 	padding-right: .4em;
+	padding-left: .4em;
 	width: max-content;
+	list-style-type: none;
 }
 
 header:first-of-type nav > div {
+	margin-top: 0;
+	margin-bottom: 0;
 	border: none;
 	border-radius: 8px;
-	list-style-type: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-left: .4em;
 	padding-right: .4em;
+	padding-left: .4em;
 	width: max-content;
+	list-style-type: none;
 }
 
 header:first-of-type > details:first-of-type[open] + nav details summary {
-	margin-bottom: .6em;
 	margin-top: .6em;
+	margin-bottom: .6em;
 }
 
 header:first-of-type > details:first-of-type[open] + nav > details[open] > summary + div > span {
@@ -45,10 +45,10 @@ header:first-of-type > details:first-of-type[open] + nav > details[open] > summa
 	}
 
 	header:first-of-type > nav details[open] > div {
-		border-right: solid 2px;
 		display: inline;
 		flex-flow: row nowrap;
 		margin-left: 0;
+		border-right: solid 2px;
 		padding-right: .8em;
 	}
 
@@ -58,9 +58,9 @@ header:first-of-type > details:first-of-type[open] + nav > details[open] > summa
 
 	header:first-of-type > nav details[open] span a {
 		display: block;
-		height: 100%;
 		padding-right: .4em;
 		width: 100%;
+		height: 100%;
 	}
 
 	header:first-of-type > nav details[open] span + span {
@@ -70,8 +70,8 @@ header:first-of-type > details:first-of-type[open] + nav > details[open] > summa
 
 	header:first-of-type > nav details[open] {
 		display: block;
-		text-align: right;
 		width: 100%;
+		text-align: right;
 	}
 
 	header:first-of-type > nav details summary {

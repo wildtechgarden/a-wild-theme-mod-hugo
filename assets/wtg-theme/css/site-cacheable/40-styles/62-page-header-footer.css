@@ -2,9 +2,9 @@
 
 header:first-of-type nav details summary {
 	border: solid 1px;
-	list-style-type: none;
-	padding-left: .4em;
 	padding-right: .4em;
+	padding-left: .4em;
+	list-style-type: none;
 }
 
 header:first-of-type nav details > summary + div  a {
